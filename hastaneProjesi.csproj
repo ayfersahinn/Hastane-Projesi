@@ -12,6 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ayfer\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +49,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0AC23C96388331E052558CC6E24F2ED1AEFA91BF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>hastaneProjesi_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,134 +75,161 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBilgiDuzenle.cs">
+    <Compile Include="forms\frmBilgiDuzenle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBilgiDuzenle.Designer.cs">
+    <Compile Include="forms\frmBilgiDuzenle.Designer.cs">
       <DependentUpon>frmBilgiDuzenle.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBrans.cs">
+    <Compile Include="forms\frmBrans.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBrans.Designer.cs">
+    <Compile Include="forms\frmBrans.Designer.cs">
       <DependentUpon>frmBrans.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoktorBilgiDuzenle.cs">
+    <Compile Include="forms\frmDoktorBilgiDuzenle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoktorBilgiDuzenle.Designer.cs">
+    <Compile Include="forms\frmDoktorBilgiDuzenle.Designer.cs">
       <DependentUpon>frmDoktorBilgiDuzenle.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoktorDetay.cs">
+    <Compile Include="forms\frmDoktorDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoktorDetay.Designer.cs">
+    <Compile Include="forms\frmDoktorDetay.Designer.cs">
       <DependentUpon>frmDoktorDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoktorGiris.cs">
+    <Compile Include="forms\frmDoktorGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoktorGiris.Designer.cs">
+    <Compile Include="forms\frmDoktorGiris.Designer.cs">
       <DependentUpon>frmDoktorGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoktorPaneli.cs">
+    <Compile Include="forms\frmDoktorPaneli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoktorPaneli.Designer.cs">
+    <Compile Include="forms\frmDoktorPaneli.Designer.cs">
       <DependentUpon>frmDoktorPaneli.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDuyurular.cs">
+    <Compile Include="forms\frmDoktorSifremiUnuttum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDuyurular.Designer.cs">
+    <Compile Include="forms\frmDoktorSifremiUnuttum.Designer.cs">
+      <DependentUpon>frmDoktorSifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDuyurular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDuyurular.Designer.cs">
       <DependentUpon>frmDuyurular.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGirisler.cs">
+    <Compile Include="forms\frmGirisler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGirisler.Designer.cs">
+    <Compile Include="forms\frmGirisler.Designer.cs">
       <DependentUpon>frmGirisler.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHastaDetay.cs">
+    <Compile Include="forms\frmHastaDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHastaDetay.Designer.cs">
+    <Compile Include="forms\frmHastaDetay.Designer.cs">
       <DependentUpon>frmHastaDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHastaGiris.cs">
+    <Compile Include="forms\FrmHastaGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHastaGiris.Designer.cs">
+    <Compile Include="forms\FrmHastaGiris.Designer.cs">
       <DependentUpon>FrmHastaGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHastaKayıt.cs">
+    <Compile Include="forms\frmHastaKayıt.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHastaKayıt.Designer.cs">
+    <Compile Include="forms\frmHastaKayıt.Designer.cs">
       <DependentUpon>frmHastaKayıt.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRandevuListesi.cs">
+    <Compile Include="forms\frmHastaSifremiUnuttum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRandevuListesi.Designer.cs">
+    <Compile Include="forms\frmHastaSifremiUnuttum.Designer.cs">
+      <DependentUpon>frmHastaSifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmRandevuListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRandevuListesi.Designer.cs">
       <DependentUpon>frmRandevuListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSekreterDetay.cs">
+    <Compile Include="forms\frmSekreterDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSekreterDetay.Designer.cs">
+    <Compile Include="forms\frmSekreterDetay.Designer.cs">
       <DependentUpon>frmSekreterDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSekreterGiris.cs">
+    <Compile Include="forms\frmSekreterGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSekreterGiris.Designer.cs">
+    <Compile Include="forms\frmSekreterGiris.Designer.cs">
       <DependentUpon>frmSekreterGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="forms\frmSekreterSifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSekreterSifremiUnuttum.Designer.cs">
+      <DependentUpon>frmSekreterSifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sqlBaglantisi.cs" />
-    <EmbeddedResource Include="frmBilgiDuzenle.resx">
+    <Compile Include="forms\sqlBaglantisi.cs" />
+    <EmbeddedResource Include="forms\frmBilgiDuzenle.resx">
       <DependentUpon>frmBilgiDuzenle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBrans.resx">
+    <EmbeddedResource Include="forms\frmBrans.resx">
       <DependentUpon>frmBrans.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDoktorBilgiDuzenle.resx">
+    <EmbeddedResource Include="forms\frmDoktorBilgiDuzenle.resx">
       <DependentUpon>frmDoktorBilgiDuzenle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDoktorDetay.resx">
+    <EmbeddedResource Include="forms\frmDoktorDetay.resx">
       <DependentUpon>frmDoktorDetay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDoktorGiris.resx">
+    <EmbeddedResource Include="forms\frmDoktorGiris.resx">
       <DependentUpon>frmDoktorGiris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDoktorPaneli.resx">
+    <EmbeddedResource Include="forms\frmDoktorPaneli.resx">
       <DependentUpon>frmDoktorPaneli.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDuyurular.resx">
+    <EmbeddedResource Include="forms\frmDoktorSifremiUnuttum.resx">
+      <DependentUpon>frmDoktorSifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDuyurular.resx">
       <DependentUpon>frmDuyurular.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGirisler.resx">
+    <EmbeddedResource Include="forms\frmGirisler.resx">
       <DependentUpon>frmGirisler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHastaDetay.resx">
+    <EmbeddedResource Include="forms\frmHastaDetay.resx">
       <DependentUpon>frmHastaDetay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHastaGiris.resx">
+    <EmbeddedResource Include="forms\FrmHastaGiris.resx">
       <DependentUpon>FrmHastaGiris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHastaKayıt.resx">
+    <EmbeddedResource Include="forms\frmHastaKayıt.resx">
       <DependentUpon>frmHastaKayıt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRandevuListesi.resx">
+    <EmbeddedResource Include="forms\frmHastaSifremiUnuttum.resx">
+      <DependentUpon>frmHastaSifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRandevuListesi.resx">
       <DependentUpon>frmRandevuListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSekreterDetay.resx">
+    <EmbeddedResource Include="forms\frmSekreterDetay.resx">
       <DependentUpon>frmSekreterDetay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSekreterGiris.resx">
+    <EmbeddedResource Include="forms\frmSekreterGiris.resx">
       <DependentUpon>frmSekreterGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSekreterSifremiUnuttum.resx">
+      <DependentUpon>frmSekreterSifremiUnuttum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -195,7 +251,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="forms\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
