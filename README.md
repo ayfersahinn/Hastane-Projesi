@@ -23,8 +23,8 @@ Uygulama **Asp.net** ile geliştirilmiş, **SQL Server** veritabanı kullanmakta
      - **Device** seçeneğinden `.bak` dosyasını ekleyin ve yükleyin.
 
 4. **Bağlantı ayarlarını yapın**  
-   - Uygulama, SQL Server bağlantı bilgilerini dışarıdan `hastane.txt` dosyasından okur.  
-   - Bu dosyayı içerisine kendi SQL Server bağlantı cümlenizi (`connection string`) aşağıdaki formatta girin:
+   - Uygulama, SQL Server bağlantı bilgilerini dışarıdan `hastane.txt` dosyasından okur. Aynı isimde .txt uzantılı dosyayı oluşturup, bağlantı yolunu "sqlBaglantisi.cs" class'ına yazın.
+   - Text içerisine kendi SQL Server bağlantı cümlenizi (`connection string`) aşağıdaki formatta girin:
 
      ```
      Data Source=SERVER_ADI;Initial Catalog=VeritabaniAdi;Integrated Security=True
