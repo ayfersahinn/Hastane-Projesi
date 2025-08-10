@@ -103,11 +103,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 236);
+            this.label1.Location = new System.Drawing.Point(116, 236);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 53;
             this.label1.Text = "Branş Adı";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtId
             // 
@@ -120,11 +121,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 193);
+            this.label2.Location = new System.Drawing.Point(116, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 28);
             this.label2.TabIndex = 51;
             this.label2.Text = "Branş ID";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // frmBrans
             // 

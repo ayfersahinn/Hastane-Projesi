@@ -83,7 +83,7 @@
             // LblTC
             // 
             this.LblTC.AutoSize = true;
-            this.LblTC.Location = new System.Drawing.Point(117, 40);
+            this.LblTC.Location = new System.Drawing.Point(119, 40);
             this.LblTC.Name = "LblTC";
             this.LblTC.Size = new System.Drawing.Size(144, 28);
             this.LblTC.TabIndex = 1;

@@ -82,11 +82,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(388, 288);
+            this.label6.Location = new System.Drawing.Point(396, 288);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(135, 28);
             this.label6.TabIndex = 46;
             this.label6.Text = "TC Kimlik No";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSoyad
             // 
@@ -98,20 +99,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(377, 237);
+            this.label2.Location = new System.Drawing.Point(396, 237);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 28);
             this.label2.TabIndex = 44;
             this.label2.Text = "Doktor Soyadı";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(409, 186);
+            this.label3.Location = new System.Drawing.Point(396, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 28);
             this.label3.TabIndex = 43;
             this.label3.Text = "Doktor Adı";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSifre
             // 
@@ -123,20 +126,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(467, 391);
+            this.label1.Location = new System.Drawing.Point(396, 391);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 28);
             this.label1.TabIndex = 40;
             this.label1.Text = "Şifre";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(457, 340);
+            this.label4.Location = new System.Drawing.Point(396, 340);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 28);
             this.label4.TabIndex = 53;
             this.label4.Text = "Branş";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // cmbBrans
             // 

@@ -52,7 +52,7 @@
             // 
             // mskTel
             // 
-            this.mskTel.Location = new System.Drawing.Point(173, 180);
+            this.mskTel.Location = new System.Drawing.Point(161, 180);
             this.mskTel.Mask = "(999) 000-0000";
             this.mskTel.Name = "mskTel";
             this.mskTel.Size = new System.Drawing.Size(231, 36);
@@ -60,57 +60,57 @@
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(173, 282);
+            this.txtSifre.Location = new System.Drawing.Point(161, 282);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(231, 36);
             this.txtSifre.TabIndex = 6;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(80, 290);
+            this.label1.Location = new System.Drawing.Point(3, 290);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 28);
             this.label1.TabIndex = 10;
             this.label1.Text = "Şifre";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(49, 239);
+            this.label4.Location = new System.Drawing.Point(3, 239);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 28);
             this.label4.TabIndex = 9;
             this.label4.Text = "Cinsiyet";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(173, 78);
+            this.txtSoyad.Location = new System.Drawing.Point(161, 78);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(231, 36);
             this.txtSoyad.TabIndex = 2;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(2, 86);
+            this.label2.Location = new System.Drawing.Point(3, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 28);
             this.label2.TabIndex = 14;
             this.label2.Text = "Hasta Soyadı";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(34, 35);
+            this.label3.Location = new System.Drawing.Point(3, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Hasta Adı";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // mskTC
             // 
-            this.mskTC.Location = new System.Drawing.Point(173, 129);
+            this.mskTC.Location = new System.Drawing.Point(161, 129);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(231, 36);
@@ -119,21 +119,21 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(54, 188);
+            this.label5.Location = new System.Drawing.Point(3, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 28);
             this.label5.TabIndex = 18;
             this.label5.Text = "Telefon";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(1, 137);
+            this.label6.Location = new System.Drawing.Point(3, 137);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(135, 28);
             this.label6.TabIndex = 17;
             this.label6.Text = "TC Kimlik No";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label7
             // 
@@ -148,7 +148,7 @@
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(173, 27);
+            this.txtAd.Location = new System.Drawing.Point(161, 27);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(231, 36);
             this.txtAd.TabIndex = 1;
@@ -159,14 +159,14 @@
             this.cinsiyet.Items.AddRange(new object[] {
             "Kadın",
             "Erkek"});
-            this.cinsiyet.Location = new System.Drawing.Point(173, 231);
+            this.cinsiyet.Location = new System.Drawing.Point(161, 231);
             this.cinsiyet.Name = "cinsiyet";
             this.cinsiyet.Size = new System.Drawing.Size(231, 36);
             this.cinsiyet.TabIndex = 5;
             // 
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(173, 334);
+            this.btnKaydet.Location = new System.Drawing.Point(161, 334);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(231, 45);
             this.btnKaydet.TabIndex = 24;
@@ -217,9 +217,9 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.txtSoyad);
-            this.panel2.Location = new System.Drawing.Point(400, 156);
+            this.panel2.Location = new System.Drawing.Point(411, 156);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(406, 434);
+            this.panel2.Size = new System.Drawing.Size(395, 434);
             this.panel2.TabIndex = 27;
             // 
             // frmHastaKayıt
