@@ -10,9 +10,8 @@ Uygulama **Asp.net** ile geliştirilmiş, **SQL Server** veritabanı kullanmakta
 
 
 1. **Setup dosyasını indirin**  
-   - **Setup** dosyasını indirmek için [buraya tıklayın](https://drive.google.com/file/d/1OExvZ_sIfNFyqkAZVxEn0YHNWOxSijI0/view?usp=sharing)  
-   - **Veritabanı (.bak)** dosyasını indirmek için [buraya tıklayın](https://drive.google.com/file/d/1OExvZ_sIfNFyqkAZVxEn0YHNWOxSijI0/view?usp=sharing)
-
+   - **Setup** ve **Veritabanı (.bak)** dosyasını indirmek için [buraya tıklayın](https://drive.google.com/file/d/1OExvZ_sIfNFyqkAZVxEn0YHNWOxSijI0/view?usp=sharing)  
+   
 2. **Programı yükleyin**  
    - Çıkan `setup.exe` dosyasına çift tıklayın ve kurulum sihirbazını takip edin.
 
