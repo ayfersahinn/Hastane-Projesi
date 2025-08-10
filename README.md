@@ -8,21 +8,22 @@ Uygulama **Asp.net** ile geliştirilmiş, **SQL Server** veritabanı kullanmakta
 
 ## 📦 Kurulum
 
+
 1. **Setup dosyasını indirin**  
-   - GitHub Releases bölümünden `setup.zip` dosyasını indirin.  
-   - Zip içeriğini çıkarın.
+   - **Setup** dosyasını indirmek için [buraya tıklayın](https://drive.google.com/file/d/1OExvZ_sIfNFyqkAZVxEn0YHNWOxSijI0/view?usp=sharing)  
+   - **Veritabanı (.bak)** dosyasını indirmek için [buraya tıklayın](https://drive.google.com/file/d/1OExvZ_sIfNFyqkAZVxEn0YHNWOxSijI0/view?usp=sharing)
 
 2. **Programı yükleyin**  
    - Çıkan `setup.exe` dosyasına çift tıklayın ve kurulum sihirbazını takip edin.
 
 3. **Veritabanını yükleyin**  
-   - Proje ile birlikte gelen `HastaneProje.bak` dosyasını SQL Server Management Studio (SSMS) kullanarak geri yükleyin:  
+   - `HastaneProje.bak` dosyasını SQL Server Management Studio (SSMS) kullanarak geri yükleyin:  
      - SSMS’i açın.  
      - **Databases** üzerine sağ tıklayın → **Restore Database** seçin.  
      - **Device** seçeneğinden `.bak` dosyasını ekleyin ve yükleyin.
 
 4. **Bağlantı ayarlarını yapın**  
-   - Uygulama, SQL Server bağlantı bilgilerini dışarıdan`hastane.txt` dosyasından okur.  
+   - Uygulama, SQL Server bağlantı bilgilerini dışarıdan `hastane.txt` dosyasından okur.  
    - Bu dosyayı içerisine kendi SQL Server bağlantı cümlenizi (`connection string`) aşağıdaki formatta girin:
 
      ```
