@@ -1,4 +1,4 @@
-# Hastane Randevu ve Yönetim Projesi
+
 # 🏥 Hastane Otomasyon Sistemi
 
 Bu proje, bir hastanenin **hasta, doktor, branş, sekreter, duyuru ve randevu** işlemlerini kolayca yönetmesini sağlayan bir masaüstü uygulamasıdır.  
